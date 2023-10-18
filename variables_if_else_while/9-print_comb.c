@@ -1,8 +1,9 @@
+#include <stdlib.h>
 #include <stdio.h>
 /**
- * main - entry point
+ * main - Entry point
  *
- * Return: 0 (if success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
@@ -10,11 +11,11 @@ int main(void)
 
 	int nombre;
 
-	for (nombre = '0' ; nombre <= '9' ; nombre++)
+	for (nombre = 0 ; nombre <= 9 ; nombre++)
 	{
 	putchar('0' + nombre);
 
-	if (nombre < '9')
+	if (nombre <= 8)
 	{
 		putchar(',');
 		putchar(' ');
