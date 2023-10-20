@@ -19,5 +19,7 @@ int print_sign(int n);
 
 int _putchar(char c);
 
+int print_last_digit(int);
+
 int _abs(int);
 #endif
