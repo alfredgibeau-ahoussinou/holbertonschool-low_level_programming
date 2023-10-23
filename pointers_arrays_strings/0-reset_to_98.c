@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*Write a function that takes a pointer to an int as parameter and updates the value
+*Write a function that takes a pointer to an int as parameter
 *
 *@n: The variable
 *Return: Nothing
