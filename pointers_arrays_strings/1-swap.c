@@ -4,11 +4,11 @@
  *void swap_int - Write a function that swaps the values of two integers.
  *@a: a
  *@b: b
- *Return: Nothing
+ * Return: Nothing
  */
 
 
-	void swap_int(int *a, int *b)
+	void swap_int(int *a, int *b);
 {
 	int n;
 
