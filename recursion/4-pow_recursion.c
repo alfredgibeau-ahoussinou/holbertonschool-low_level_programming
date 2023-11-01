@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * int _pow_recursion - Write a function that returns the value
+ * _pow_recursion - Write a function that returns the value
  * @x: This is the input number
  * @y: This is the power number
  *
