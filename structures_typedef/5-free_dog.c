@@ -1,23 +1,17 @@
-#include "dog.h"
 #include <stdlib.h>
+#include "dog.h"
 
 /**
- * free dog - free a dog
- *
- * @d:day to free
- *
- * Return: void
- **/
-
-void free_dog(dog_t *d)
-
+ * free_dog - function
+ * @d: dog_t ptr
+ */
+void	free_dog(dog_t *d)
 {
-	if (d != 0)
+	if (d == 0)
 		return;
-	if  (d -> name)
-		free (d -> name);
-	if (d -> owner)
-		free (d -> owner);
+	if (d->name)
+		free(d->name);
+	if (d->owner)
+		free(d->owner);
 	free(d);
 }
-
