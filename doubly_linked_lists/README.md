@@ -47,4 +47,4 @@ What you should learn from this project:
 ---
 
 ## Author
-* **Alfred GIBEAU--AHOUSSINOU** 
+* **alfredgibeau-ahoussinou** - [alfredgibeau-ahoussinou](https://github.com/alfredgibeau-ahoussinou)
